@@ -1,0 +1,15 @@
+.sidebar{
+    top: 190px;
+    left: 68px;
+    width: auto;
+    height: auto;
+    transition: 0.3s ease;
+    z-index: 50;
+
+    &-line{
+        width: 1px;
+        height: 60px;
+        background: var(--light);
+        margin: 30px 0px;
+    }
+}
