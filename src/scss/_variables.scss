@@ -1,3 +1,6 @@
+//Variables style sheet
+
+
 $dark:                                  #0C0E13;
 $black:                                 #000000;
 $light:                                 #FFFFFF;
@@ -6,6 +9,18 @@ $grey:                                  #8D8D8D;
 
 
 $dark-100:                              #272727;
+
+
+//Transparent colors
+$dark-tr-100: rgba(12, 14, 19, 0.7);
+
+
+//Blur variants
+$blur-100: blur(5px);
+$blur-200: blur(10px);
+$blur-300: blur(15px);
+$blur-400: blur(20px);
+$blur-500: blur(25px);
 
 
 //Font styles

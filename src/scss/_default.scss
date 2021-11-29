@@ -1,5 +1,6 @@
 //Defaulr styles
 
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
@@ -60,4 +61,49 @@ h5{
 h6{
     font-weight: 640;
     font-size: $h6-size;
+}
+
+
+//Positions
+.relative{
+    position: relative;
+}
+
+.absolute{
+    position: absolute;
+}
+
+.fixed{
+    position: fixed;
+}
+
+.auto{
+    margin: 0px auto;
+}
+
+
+//Flexbox
+.flex{
+    display: flex;
+
+    &-start{
+        justify-content: flex-start;
+    }
+
+    &-end{
+        justify-content: flex-end;
+    }
+
+    &-column{
+        flex-direction: column;
+    }
+}
+
+.wrap{
+    flex-wrap: wrap;
+}
+
+.vertical{
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
 }
