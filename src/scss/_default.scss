@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@100;200;300;400;500;600;700&display=swap');
+
 
 body{
     background-color: $dark;
@@ -18,6 +20,44 @@ a{
     color: $light;
 }
 
+a, span, input, button, ul, ol, li,
+textarea{
+    font-family: secondary-font;
+}
+
+code{
+    font-family: tertiary-font;
+}
+
 input, textarea, button{
     outline: 0px;
+}
+
+h1, h2, h3, h4, h5, h5{
+    font-family: $primary-font;
+}
+
+h1{
+    font-weight: 700;
+    font-size: $h1-size;
+}
+h2{
+    font-weight: 600;
+    font-size: $h2-size;
+}
+h3{
+    font-weight: 600;
+    font-size: $h3-size;
+}
+h4{
+    font-weight: 400;
+    font-size: $h4-size;
+}
+h5{
+    font-weight: 400;
+    font-size: $h5-size;
+}
+h6{
+    font-weight: 640;
+    font-size: $h6-size;
 }
