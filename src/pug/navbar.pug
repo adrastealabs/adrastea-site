@@ -1,9 +1,9 @@
 nav.nav.flex.center-y.center-x(data-controller="navigation" data-toggle="collapse" lang="es")
     section.nav-row(data-collapse="responsive")
-        div.nav-col.flex.center-y
+        div.nav-col.flex.center-y(data-navigation="nav-column")
             a.nav-brand(href="https://adrastealabs.com/" data-brand="imagotype")
 
-        div.nav-col
+        div.nav-col.flex.center-x.center-y(data-navigation="nav-column")
             ul.unordered-list
                 li.unordered-list-element
                     a.nav-link(href="services.html")
@@ -21,7 +21,7 @@ nav.nav.flex.center-y.center-x(data-controller="navigation" data-toggle="collaps
                     a.nav-link(href="blog")
                         span.nav-text Blog
 
-        div.nav-col
+        div.nav-col.flex.center-y.flex-end(data-navigation="nav-column")
             ul.unordered-list
                 li.unordered-list-element
                     a.nav-link(href="lab.html")
