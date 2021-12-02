@@ -22,11 +22,14 @@ a{
 }
 
 a, span, input, button, ul, ol, li,
-textarea{
+textarea, blockquote{
     font-family: secondary-font;
 }
 
-code{
+code, pre{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: tertiary-font;
 }
 

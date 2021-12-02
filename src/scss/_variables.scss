@@ -6,13 +6,33 @@ $black:                                 #000000;
 $light:                                 #FFFFFF;
 $blue:                                  #12161E;
 $grey:                                  #8D8D8D;
+$purple:                                #663DFF;
+$aqua:                                  #00E4F7;
+$twitter:                               #1DA1F2;
+$css:                                   #1572B6;
+$html:                                  #E34F26;
+$js:                                    #F7DF1E;
 
-
+//Dark variants
 $dark-100:                              #272727;
+$dark-200:                              #10131A;
+$dark-300:                              #0C0F14;
+$dark-400:                              #090A0E;
+
+//Grey variants
+$grey-100:                              #B5B5B5;
+$grey-200:                              #5E5D58;
+$grey-300:                              #666560;
+
+//Blue variants
+$blue-100:                              #6DB0FF;
 
 
 //Transparent colors
 $dark-tr-100: rgba(12, 14, 19, 0.7);
+$light-tr-100: rgba(255, 255, 255, 0.7);
+
+
 
 
 //Blur variants
@@ -21,6 +41,8 @@ $blur-200: blur(10px);
 $blur-300: blur(15px);
 $blur-400: blur(20px);
 $blur-500: blur(25px);
+
+
 
 
 //Font styles
@@ -41,8 +63,9 @@ $h6-size: 15px;
 $link-100: 15px;
 
 //Button font sizes
-$normal: 15px;
 $small: 12px;
+$normal: 16px;
+$medium: 14px;
 $large: 18px;
 
 //Paragraph sizes
@@ -58,3 +81,11 @@ $font-600:                              600;
 $font-700:                              700;
 $font-800:                              800;
 $font-900:                              900;
+
+
+
+
+
+//Shadows
+$shadow-100: 0px 10px 65px rgba(6, 6, 6, 0.4);
+$shadow-200: 0px 10px 45px rgba(6, 6, 6, 0.35);

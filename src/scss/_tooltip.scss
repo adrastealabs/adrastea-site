@@ -30,9 +30,9 @@
     text-overflow: ellipsis;
     padding: 6px 12px;
     border-radius: 6px;
-    background: var(--dark);
-    color: var(--light);
-    border: 1px solid var(--mid-dark);
+    background: $dark;
+    color: $light;
+    border: 1px solid $dark-100;
     z-index: 1000;
 }
   
@@ -50,7 +50,7 @@
 [tooltip][flow^="right"]::before {
     top: 50%;
     border-left-width: 0;
-    border-right-color: var(--mid-dark);
+    border-right-color: $dark-100;
     right: calc(0em - 5px);
     transform: translate(.5em, -50%);
 }
