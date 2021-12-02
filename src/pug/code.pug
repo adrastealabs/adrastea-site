@@ -1,0 +1,23 @@
+div.code(data-controller="code-editor")
+    section.code-bar(data-coder="codertopnav")
+        span.code-icon
+
+        div.code-bar-nav(data-controller="file-explorer")
+            button.code-bar-file
+                img(class="code-bar-icon", src="", alt="file-icon")
+                span.code-bar-font index.html
+
+            button.code-bar-file
+                img(class="code-bar-icon", src="", alt="file-icon")
+                span.code-bar-font styles.css
+
+            button.code-bar-file
+                img(class="code-bar-icon", src="", alt="file-icon")
+                span.code-bar-font index.scss
+
+    section.code-viewfinder(data-coder="viewfinder")
+        div.code-col
+            pre
+                code
+
+        div.code-col
