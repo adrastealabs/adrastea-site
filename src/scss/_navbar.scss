@@ -65,6 +65,38 @@
     }
 }
 
+.toggle{
+    position: relative;
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+
+    &-icon{
+        position: inherit;
+        width: 25px;
+        height: 25px;
+    }
+
+    &-bar{
+        position: absolute;
+        width: 25px;
+        height: 1px;
+        top: 6px;
+        left: 0px;
+        background-color: $light;
+    }
+
+    &-bar:before{
+        position: absolute;
+        content: '';
+        width: 25px;
+        height: 1px;
+        top: 6px;
+        left: 0px;
+        background-color: $light;
+    }
+}
+
 @media only screen and (max-width: 300px){
     .nav{
         
