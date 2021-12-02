@@ -10,7 +10,20 @@
     background-color: transparent;
     border-bottom: transparent;
     transition: 0.4s ease;
-    z-index: 500;
+    z-index: 1000;
+
+    &-row{
+        width: 100%;
+        height: auto;
+        max-width: 1200px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    &-col{
+        width: 100%;
+        height: 30px;
+    }
 
     &.sticky{
         background-color: $dark-tr-100;
@@ -49,5 +62,14 @@
         height: 100%;
         object-fit: contain;
         padding: 0px 8px;
+    }
+}
+
+@media only screen and (max-width: 300px){
+    .nav{
+        
+        &-row{
+            max-width: 90%;
+        }
     }
 }

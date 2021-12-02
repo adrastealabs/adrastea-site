@@ -8,12 +8,14 @@
     max-width: 1200px;
     height: 700px;
     background-color: $dark-400;
+    box-shadow: $shadow-100;
 
     &-bar{
         width: 100%;
         height: auto;
         display: flex;
         overflow-x: auto;
+        background-color: $dark-300;
 
         &-icon{
             width: 40px;
@@ -39,6 +41,7 @@
             width: 200px;
             height: 40px;
             margin: 0px 1px;
+            background-color: $dark-200;
         }
 
         &-icon{
@@ -61,8 +64,15 @@
 }
 
 
+@media only screen and (max-width: 690px){
+    .code{
+        max-width: 90%;
+        height: auto;
+    }
+}
 
-@media only screen and (max-width: 320px){
+
+@media only screen and (max-width: 300px){
     .code{
         max-width: 90%;
         height: auto;
