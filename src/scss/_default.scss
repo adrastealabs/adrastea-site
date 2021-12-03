@@ -124,3 +124,14 @@ h6{
     max-width: 1200px;
     height: auto;
 }
+
+.link{
+    font-size: $link-100;
+    color: $light;
+    opacity: 0.6;
+    transition: 0.3s ease;
+
+    &:hover{
+        opacity: 1;
+    }
+}
