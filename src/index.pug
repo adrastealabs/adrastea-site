@@ -8,3 +8,23 @@ html(lang="es")
         link(rel="shortcut icon", href="#", type="image/png")
         link(rel="stylesheet", type="text/css"  href="adrastea.css")
     body
+        include pug/navbar.pug
+
+        include pug/sidebar.pug
+
+        div.global-column.auto(data-controller="infocontainer")
+            h1.light-txt Bienvenido a Adrastea
+            section.p-container
+                p.light-text Nos presentamos, somos Adrastea, un estudio especializado en diseño y desarrollo, con el propósito de crear una serie de productos y servicios que ayuden a nuestros clientes a conectar con los suyos de una manera cada vez más sofisticada y sencilla.
+                    br
+                    br
+                    ¿Tienes algún proyecto? Comencemos hoy mismo.
+
+                ul.unordered-list.flex
+                    a.btn.btn-dark(href="services.html")
+                        span.btn-txt Conoce nuestros servicios
+
+                    a.btn.btn-dark-outline(href="about.html")
+                        span.btn-txt Sobre nosotros
+
+        include

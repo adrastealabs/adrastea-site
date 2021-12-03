@@ -66,6 +66,14 @@ h6{
     font-size: $h6-size;
 }
 
+.light-txt{
+    color: $light;
+}
+
+.dark-txt{
+    color: $dark;
+}
+
 
 //Positions
 .relative{
@@ -109,4 +117,10 @@ h6{
 .vertical{
     writing-mode: vertical-lr;
     transform: rotate(180deg);
+}
+
+.global-column{
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
 }
