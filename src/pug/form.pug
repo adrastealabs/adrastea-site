@@ -1,0 +1,23 @@
+form(method="POST", action="", class="form")
+    div.input-group
+        input(type="text", class="name", id="name" required, autocomplete="off")
+        label(for="name") ¿Cuál es tu nombre?
+        span.input-underline
+
+    div.input-group
+        input(type="email", class="email", id="email" required, autocomplete="off")
+        label(for="email") Tu correo electrónico de trabajo
+        span.input-underline
+
+    div.input-group
+        input(type="text", class="subject", id="subject" required, autocomplete="off")
+        label(for="subject") ¿Como podemos ayudarte?
+        span.input-underline
+
+    div.input-group
+        textarea(name="message", class="message", id="message" required)
+        label(for="message") Dejanos tu mensaje aquí
+        span.input-underline
+
+    button.btn-send(type="submit")span.button-txt Enviar informació
+        span.arrow &#10142;
