@@ -1,0 +1,25 @@
+.btn{
+    padding: 15px 25px;
+    display: flex;
+    transition: 0.3s ease;
+
+    &-dark-blue{
+        background-color: $blue;
+        border: 2px solid $blue;
+        color: $light;
+
+        &:hover{
+            background-color: transparent;
+        }
+    }
+
+    &-dark-blue-outline{
+        background-color: transparent;
+        border: 2px solid $blue;
+        color: $light;
+
+        &:hover{
+            background-color: $blue;
+        }
+    }
+}
